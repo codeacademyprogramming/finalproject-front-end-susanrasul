@@ -1,0 +1,153 @@
+// HOMEPAGE SEHIFESI
+
+header {
+    .container {
+        margin-top: 20px;
+        .row {
+            .column {
+                width: calc((100% / 5));
+                img {
+                    margin-top: 12px;
+                    width: 50%;
+                    // margin-right: 50px;
+                }
+                #menu {
+                    margin-top: 20px;
+                    width: 700px;
+                    ul {
+                        display: inline-block;
+                        li {
+                            a {
+                                text-decoration: none;
+                                color: $background-color-f;
+                                margin-right: 38px;
+                            }
+                        }
+                    }
+                }
+                #reg-btn {
+                    background-color: $button-color;
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: white;
+                    width: 125px;
+                    height: 57px;
+                    border: none;
+                    border-radius: 5px;
+                    // margin-bottom: 20px;
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+            #top-left-col {
+                margin-left: 400px;
+                span {
+                    margin-right: 26px;
+                }
+            }
+        }
+    }
+}
+
+//COURSEPAGE SEHIFESI
+
+#coursePage {
+    background-color: #efeff6;
+    .container {
+        margin: 0 auto;
+        .row {
+            .column {
+                margin-top: 35px;
+                width: calc((100% / 5));
+                img {
+                    margin-top: 12px;
+                    width: 50%;
+                    // margin-right: 50px;
+                }
+                #menu {
+                    margin-top: 20px;
+                    width: 700px;
+                    ul {
+                        display: inline-block;
+                        li {
+                            a {
+                                text-decoration: none;
+                                color: $background-color-f;
+                                margin-right: 38px;
+                            }
+                        }
+                    }
+                }
+            }
+            #top-left-col {
+                margin-left: 400px;
+                span {
+                    margin-right: 26px;
+                }
+                #reg-btn {
+                    background-color: $button-color;
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: white;
+                    width: 125px;
+                    height: 57px;
+                    border: none;
+                    border-radius: 5px;
+                    // margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+//COURSEDETAILS SEHIFESI
+#course-details {
+    background-color: #ffffff;
+    .container {
+        margin: 0 auto;
+        .row {
+            .column {
+                margin-top: 35px;
+                width: calc((100% / 5));
+                img {
+                    margin-top: 12px;
+                    width: 50%;
+                    // margin-right: 50px;
+                }
+                #menu {
+                    margin-top: 20px;
+                    width: 700px;
+                    ul {
+                        display: inline-block;
+                        li {
+                            a {
+                                text-decoration: none;
+                                color: $background-color-f;
+                                margin-right: 38px;
+                            }
+                        }
+                    }
+                }
+            }
+            #top-left-col {
+                margin-left: 400px;
+                span {
+                    margin-right: 26px;
+                }
+                #reg-btn {
+                    background-color: $button-color;
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: white;
+                    width: 125px;
+                    height: 57px;
+                    border: none;
+                    border-radius: 5px;
+                    // margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
