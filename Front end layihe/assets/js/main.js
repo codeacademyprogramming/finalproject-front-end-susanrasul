@@ -34,7 +34,23 @@ $(document).ready(function () {
     });
 });
 
-
+$(document).ready(function () {
+    $('.them4').owlCarousel({
+        loop: true,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1147: {
+                items: 3
+            }
+        }
+    });
+});
 
 $(document).ready(function () {
     $('.carousel-3').owlCarousel({
@@ -48,7 +64,7 @@ $(document).ready(function () {
                 items: 1
             },
             1147: {
-                items: 5
+                items: 6
             }
         }
     });
@@ -163,3 +179,24 @@ $(document).ready(function () {
         }
     });
 });
+
+$(document).ready(function () {
+    $('.carousel-11').owlCarousel({
+        loop: true,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1147: {
+                items: 2
+            }
+        }
+    });
+});
+
+
+let btn = document.getElementById('')

@@ -9,53 +9,74 @@
             .item {
                 margin-top: 50px;
                 .course-card {
-                    width: 350px;
+                    background-color: white;
+                    width: 320px;
                     height: 390px;
-                    margin-bottom: 10px;
                     #background {
-                        width: 246px;
+                        width: 290px;
                         height: 160px;
                         background-image: url(../images/architect-solutions.jpg);
                         background-size: cover;
                         background-repeat: no-repeat;
-                        margin-bottom: 20px;
+                        // margin-bottom: 20px;
+                        margin: 15px auto;
+                        padding-top: 15px;
+                    }
+                    span {
+                        margin-right: 5px;
                     }
                     span .fa-star {
+                        color: #f3b23a;
+                        margin-left: 15px;
                         span {
+                            color: #5f5982;
                         }
                     }
                     span .fa-eye {
+                        color: #db4500;
                         span {
+                            color: #5f5982;
                         }
                     }
 
                     span .fa-play-circle {
+                        color: #3e9365;
                         span {
+                            color: #5f5982;
                         }
                     }
                     hr {
                         margin-top: 20px;
                         margin-bottom: 20px;
-                        margin-left: 1px;
-                        width: 275px;
+                        width: 315px;
                     }
                     h2 {
-                        font-size: 20px;
+                        font-size: 22px;
                         font-weight: 600;
+                        margin-left: 15px;
                     }
                     .col-bottom-part {
                         width: 100%;
                         .course-card-small {
-                            background-color: #cccccc;
-                            margin-right: 15px;
-                            margin-top: 20px;
+                            background-image: url(../images/c-10-woman.jpg);
+                            background-size: cover;
+                            background-repeat: no-repeat;
                             width: 40px;
                             height: 40px;
+                            margin-right: 15px;
+                            margin-top: 20px;
+                            margin-left: 15px;
+                            display: inline-block;
                             border-radius: 10px;
                         }
                         span {
                             color: #7a7a7a;
-                            margin-right: 10px;
+                            margin-bottom: 15px;
+                            // margin-right: 10px;
+                        }
+                        .last-span-1 {
+                            color: #f68c20;
+                            font-weight: 600;
                         }
                     }
                 }
@@ -121,6 +142,9 @@
                 .ca-img-3 {
                     background-image: url(../images/Bg.png);
                     border-radius: 50%;
+                    img {
+                        width: 20%;
+                    }
                 }
             }
         }
